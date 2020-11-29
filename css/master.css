@@ -131,7 +131,7 @@ h2 {
 .main-1 {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
-  margin: 100px auto;
+  margin: 100px 0 50px 0;
   padding: 20px 0px 50px 0px;
 }
 
@@ -184,6 +184,18 @@ p {
   margin: 100px auto;
 }
 
+.text-container2 {
+  width: 100%;
+  padding: 30px;
+  margin: 30px auto;
+}
+
+.text-container3 {
+  width: 100%;
+  padding: 30px;
+  margin: 10px auto;
+}
+
 .in-text-ul {
   font-size: calc(13px + 18 * ((100vw - 300px)/1300));
   margin-left: 10%;
@@ -207,7 +219,7 @@ table{
 }
 
 #donate {
-  text-align: center;
+  text-align: left;
 }
 
 .contact-links {
