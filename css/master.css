@@ -1,0 +1,246 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/bookshelf.JPG");
+  font-family: 'Lato';
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#logo{
+  width:100%;
+  object-fit: scale-down;
+  padding-top: 80px;
+}
+
+nav{
+  display: block;
+  width:100vw;
+  position: fixed;
+  top: 10px;
+  left:0px;
+  height:70px;
+  z-index: 1;
+  background-color: black;
+}
+
+.nav-links-ul{
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-links {
+  font-family: 'Cinzel Decorative';
+  font-size: calc(10px + 25 * ((100vw - 300px)/1300));
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.nav-links:hover {
+  box-shadow: 0px 0px 7px 3px  #cccc;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  margin: 10px auto;
+}
+
+.heart-h1 {
+  font-size: calc(30px + 85 * ((100vw - 300px)/1300));
+  font-family: 'Meie Script';
+  margin: 20px auto;
+}
+
+h1 {
+  font-family: 'Lato';
+  font-size: calc(15px + 40 * ((100vw - 300px)/1300));
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+.heart-h2 {
+  font-family: 'Lato';
+  font-size: calc(10px + 40 * ((100vw - 300px)/1300));
+  text-align: right;
+}
+
+h2 {
+  font-family: 'Lato';
+  font-size: calc(10px + 40 * ((100vw - 300px)/1300));
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+.more-links {
+  display: flex;
+  font-size: calc(20px + 40 * ((100vw - 300px)/1300));
+  flex-direction: column;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.more-links-li {
+  margin: 30px;
+}
+
+.more-links-link {
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+span {
+  font-style: italic;
+}
+
+.more-links-link:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 7px 3px  #cccc;
+}
+
+.feeds {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.twitter-container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+p {
+  margin: 10px 0 10px 0;
+  font-family: 'Lato';
+  font-size: calc(10px + 15 * ((100vw - 300px)/1300));
+  color: white;
+}
+
+.oomph {
+  margin: 10px 0 10px 0;
+  font-family: 'Lato';
+  font-size: calc(15px + 15 * ((100vw - 300px)/1300));
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#about {
+  width: 100%;
+  margin: 100px 0 50px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 20px 20px 20px;
+}
+
+.text-container {
+  width: 70%;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.in-text-ul {
+  font-size: calc(10px + 15 * ((100vw - 300px)/1300));
+  margin-left: 10%;
+  text-align: left;
+  font-family: 'Lato';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: disc;
+  color: white;
+}
+
+#hart-sign {
+  width:60%;
+}
+
+table{
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+
+.contact-links {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-li {
+  text-align: center;
+  margin: 10px;
+}
+
+.contact-link {
+  width: 50%;
+}
+
+.contact-li:hover {
+  background-color: rgba(150, 150, 150, .9);
+  color: black;
+}
+
+.extra-margin {
+  margin-top: 100px;
+}
+
+.footer-1 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  margin-top: 150px;
+}
+
+.footer-2 {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
