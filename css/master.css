@@ -127,7 +127,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   margin: 100px auto;
-  padding: 20px;
+  padding: 20px 0px 50px 0px;
 }
 
 span {
@@ -140,6 +140,7 @@ span {
 }
 
 .feeds {
+  padding: 50px 0 50px 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -173,7 +174,7 @@ p {
 }
 
 .text-container {
-  width: 70%;
+  width: 80%;
   padding: 20px;
   margin: 100px auto;
 }
@@ -198,6 +199,10 @@ table{
   text-align: center;
   color: white;
   margin: 20px auto;
+}
+
+#donate {
+  text-align: center;
 }
 
 .contact-links {
