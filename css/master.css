@@ -84,7 +84,7 @@ main {
 
 h1 {
   font-family: 'Lato';
-  font-size: calc(15px + 40 * ((100vw - 300px)/1300));
+  font-size: calc(20px + 40 * ((100vw - 300px)/1300));
   text-align: center;
   margin: 20px;
   color: white;
@@ -98,7 +98,7 @@ h1 {
 
 h2 {
   font-family: 'Lato';
-  font-size: calc(10px + 40 * ((100vw - 300px)/1300));
+  font-size: calc(15px + 40 * ((100vw - 300px)/1300));
   text-align: center;
   margin: 20px;
   color: white;
@@ -121,6 +121,11 @@ h2 {
   margin: 10px;
   color: white;
   text-decoration: none;
+}
+
+.twitter-container{
+  margin: 20px auto;
+  padding: 20px 0 20px 0;
 }
 
 .main-1 {
@@ -152,7 +157,7 @@ span {
 p {
   margin: 10px 0 10px 0;
   font-family: 'Lato';
-  font-size: calc(10px + 15 * ((100vw - 300px)/1300));
+  font-size: calc(13px + 18 * ((100vw - 300px)/1300));
   color: white;
 }
 
@@ -174,13 +179,13 @@ p {
 }
 
 .text-container {
-  width: 80%;
+  width: 100%;
   padding: 20px;
   margin: 100px auto;
 }
 
 .in-text-ul {
-  font-size: calc(10px + 15 * ((100vw - 300px)/1300));
+  font-size: calc(13px + 18 * ((100vw - 300px)/1300));
   margin-left: 10%;
   text-align: left;
   font-family: 'Lato';
