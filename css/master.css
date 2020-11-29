@@ -79,7 +79,8 @@ main {
 .heart-h1 {
   font-size: calc(30px + 85 * ((100vw - 300px)/1300));
   font-family: 'Meie Script';
-  margin: 20px auto;
+  margin: 20px;
+  text-align: left;
 }
 
 h1 {
@@ -94,6 +95,7 @@ h1 {
   font-family: 'Lato';
   font-size: calc(10px + 40 * ((100vw - 300px)/1300));
   text-align: right;
+  padding-right: 20px;
 }
 
 h2 {
